@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class FirstMod
+	class TrashFires
 	{
 		requiredAddons[] =
 		{
@@ -11,7 +11,7 @@ class CfgPatches
 
 class CfgMods
 {
-	class FirstMod
+	class TrashFires
 	{
 		type = "mod";
 
@@ -20,7 +20,7 @@ class CfgMods
 			class worldScriptModule
 			{
 				value = "";
-				files[] = { "FirstMod/Scripts/4_World" };
+				files[] = { "TrashFires/Scripts/4_World" };
 			};
 		};
 	};
