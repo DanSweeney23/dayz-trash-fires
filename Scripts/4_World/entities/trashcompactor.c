@@ -1,0 +1,1 @@
+class TrashCompactor : Inventory_Base {};
